@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Android_MVC"
         tools:targetApi="31">
         <activity
+            android:name=".MVP.MVPActivity"
+            android:exported="false" />
+        <activity
             android:name=".MVC.MVCActivity"
             android:exported="false" />
         <activity
