@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.android_mvc.MVC.MVCActivity
 import com.example.android_mvc.MVP.MVPActivity
+import com.example.android_mvc.MVVM.MvvmActivity
 import com.example.android_mvc.databinding.ActivityMainBinding
 
  class MainActivity : AppCompatActivity() {
@@ -29,7 +30,8 @@ import com.example.android_mvc.databinding.ActivityMainBinding
           startActivity(intent)
      }
       fun openMVVM(){
-
+          val intent = Intent(this, MvvmActivity::class.java)
+          startActivity(intent)
      }
       fun openMVI(){
 
